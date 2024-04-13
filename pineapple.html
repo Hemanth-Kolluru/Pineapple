@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pineapple</title>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
-    <link rel="stylesheet" href="./components/sizing.css">
-    <link rel="stylesheet" href="./components/header.css">
-    <link rel="stylesheet" href="./components/card_1.css">
-    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="header">
@@ -28,63 +25,74 @@
                 <a href="#contact" class="nav_row">Contact Us</span></a>
                 </nav>
             </center>
-            <a href="#login" class="login_button">
+            <a href="./login/login.html" class="login_button">
                 Login
             </a>
-
             <button class="menu_button">
                 <img src="./images/menu.png" alt="menuButton" class="menu_icon">
             </button>
-        </nav>
-    </header>
-    <center>
-        <p>&nbsp;</p>
-        <p class="title">Featured Games</p>
-        <div class="wrapper">
-            <i id="left" class="fa-solid  fas fa-angle-left"></i>
-                <ul class="carousel"> 
-                    <li class="card"> 
-                        <div class="img"><img src= "./images/cut_the_rope.png" draggable="false"></div> 
-                        <p class="title">Cut the Rope</p>
-                        <span>Puzzle</span><br>
-                        <a class="play" href="./game/cut_the_rope.html">Play now</a>
-                    </li> 
-                    <li class="card"> 
-                        <div class="img"><img src="./images/gun_mayhem_2.png" draggable="false"></div> 
-                        <p class="title">Gun Mayhem 2</p>
-                        <span>Shooting</span><br>
-                        <a class="play" href="./game/gun_mayhem_2.html">Play now</a>
-                    </li>
-                    <li class="card"> 
-                        <div class="img"><img src="./images/paper_io.png"></div> 
-                        <p class="title">Paper.io</p>
-                        <span>Arcade</span><br>
-                        <a class="play" href="./game/paper.html">Play now</a>
-                    </li> 
-                    <li class="card"> 
-                        <div class="img"><img src="./images/happy_snakes.png"></div> 
-                        <p class="title">Happy Snakes</p> 
-                        <span>Arcade</span><br>
-                        <a class="play" href="./game/happy_snakes.html">Play now</a>
-                    </li> 
-                    <li class="card"> 
-                        <div class="img"><img src="./images/fire_and_water.png"></div> 
-                        <p class="title">Fireboy and Watergirl</p>
-                        <span>Puzzle</span><br>
-                        <a class="play" href="./game/fire_and_water.html">Play now</a>
-                    </li> 
-                    <li class="card">
-                        <div class="img"><img src="./images/hole_io.png"></div> 
-                        <p class="title">Hole.io</p> 
-                        <span>Arcade</span><br>
-                        <a class="play" href="./game/hole.html">Play now</a>
-                    </li> 
-                </ul> 
-            <i id="right" class="fa-solid fas fa-angle-right"></i> 
+        </header>
+    </div>
+    <!-- <div>
+        <a href="https://www.twoplayergames.org/embed/cut-the-rope" target="cuttherope">Click me!</a>
+        <iframe name="cuttherope"src="about:blank" frameborder="4" width="1000" height="680"></iframe>
+    </div> -->
+    <div class="box1">
+        <br>
+        <center><span class="featured">Featured Games</span></center>
+        <br>
+        <div class="container">
+            <div class="slide">
+                <div class="item" style="background-image: url(https://img.gamepix.com/games/cut-the-rope/icon/cut-the-rope.png);">
+                    <div class="content">
+                        <div class="name">Cut the Rope</div>
+                        <div class="des">Puzzle</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg69exxTDkft-cK9dEskrDbkCcpylirsfs-OU561RBqA&s);">
+                    <div class="content">
+                        <div class="name">Hole.io</div>
+                        <div class="des">Arcade</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://play-lh.googleusercontent.com/qbhOBLVCkb22a9ia4pekPggqip1BkIiSm1-sP1z5oj0f10gDwj1uL1spnwFWg4bf4Q);">
+                    <div class="content">
+                        <div class="name">Paper.io</div>
+                        <div class="des">Arcade</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ584HS1gLq1AwA_Htzdn7bQnmOHDSpMlZSF00HShMDg&s);">
+                    <div class="content">
+                        <div class="name">Happy Snakes</div>
+                        <div class="des">Arcade</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehdTAqOd7cvlBew9MUf0iqRAjy_65yrStJmPIXcv4Og&s);">
+                    <div class="content">
+                        <div class="name">Fire boy and Water girl</div>
+                        <div class="des">Puzzle</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ca/fe/d5/cafed596-6847-d024-4bf5-52a866acca66/pr_source.png/750x750bb.jpeg);">
+                    <div class="content">
+                        <div class="name">Gun Mayhem 2</div>
+                        <div class="des">Shooting</div>
+                        <button class="login_button" onclick="opengame()">Play now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="prev"><</button>
+                <button class="next">></button>
+            </div>
         </div>
-    </center>
-    <!-- <footer>
-
-    </footer> -->
+    </div>
+    <p style="line-height: 50;">&nbsp;</p>
+    <div class="genre">Choose your category</div>
 </body>
 </html>
