@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const wrapper = document.querySelector(".wrapper"); 
 
     const firstCard = carousel.querySelector(".card"); 
-    const firstCardWidth = firstCard.offsetWidth; 
+    const firstCardWidth = firstCard.offsetWidth;
 
     let timeoutId; 
     let autoplayInterval;
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const totalCardWidth = carousel.scrollWidth;
         
         // Calculate the maximum scroll position 
-        const maxScrollLeft = totalCardWidth - carousel.offsetWidth; 
+        const maxScrollLeft = totalCardWidth - carousel.offsetWidth;
         
         // If the carousel is at the end, scroll to the beginning
         if (carousel.scrollLeft >= maxScrollLeft) {
