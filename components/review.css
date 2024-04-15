@@ -1,15 +1,54 @@
-.review {
-    border : 1px solid black;
-    background-color: #ffffff;
-    background-image: linear-gradient(0deg, #ffffff 0%, #fffc67 100%);
+:root {
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xlg: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
 }
 
-.heading {
+.review {
+    border-radius: 2rem;
+    background-color: #6cffb0;
+    background-image: linear-gradient(45deg, #6cffb0 0%, #fffa6a 100%);
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+}
+
+.review_heading {
     text-align: center;
     padding-bottom: 40px;
     flex-basis: 100%;
     font-family: "Averia Gruesa Libre", system-ui;
     font-weight: bold;
     font-style: normal;
-    font-size: 1.5rem;
-} 
+    font-size: var(--size-2xl);
+}
+
+.review_box {
+    width: 300px;
+    height: 450px;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2rem;
+    transform: all 1s;
+    cursor: pointer;
+}
