@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+.contact{
+    font-family: "Averia Gruesa Libre", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.footer_logo:hover{
+    filter:invert(1);
+}
