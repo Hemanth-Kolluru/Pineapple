@@ -39,3 +39,20 @@ html {
 .footer_logo :hover {
     transform: translateY(-5px);
 }
+
+.about a {
+    padding: 2rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(45deg ,#FF0000, #8EC5FC ,#FC00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: all 0.1s;
+    transition: transform 0.3s;
+}
+
+.about a:hover {
+    background: -webkit-linear-gradient(45deg ,#379BFC , #FFE20D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-5px);
+}
