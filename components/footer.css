@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer {
+    background-color: black;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: x-small;
+}
 .contact{
     font-family: "Averia Gruesa Libre", system-ui;
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    color: white;
 }
-.footer_logo:hover{
+
+.contact text {
+    text-align: center;
+}
+.footer_logo {
+    padding: 2rem;
+    align-items: center;
+    color: black;
     filter:invert(1);
+    transform: all 0.1s;
+    transition: transform 0.3s;
+}
+
+.footer_logo :hover {
+    transform: translateY(-5px);
 }
