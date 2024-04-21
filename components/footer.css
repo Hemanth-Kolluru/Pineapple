@@ -9,6 +9,8 @@ html{
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-radius: 1px;
+    grid-row: 2; 
+    margin-top: 20px;
 }
 
 .details {
