@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
 
-html {
-    scroll-behavior: smooth;
+html{
+    scroll-behavior:smooth;
 }
 
 .footer {
     background-color: black;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    border-radius: 1px;
 }
 
 .details {
