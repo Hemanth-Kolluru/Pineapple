@@ -13,6 +13,7 @@ body{
   justify-content: center;
   background: linear-gradient(160deg, #30f3e0 0%, #93f591 56%, #69dce2 100%);
   padding: 30px;
+  
 }
 .container{
   position: relative;
