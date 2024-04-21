@@ -5,13 +5,18 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
+.review{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .container{
   position: relative;
-  width: 400px;
-  background: #111;
+  width: 100%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
   padding: 20px 30px;
-  border: 1px solid #444;
+  border: 1px solid;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -23,7 +28,7 @@
 }
 .container .text{
   font-size: 25px;
-  color: #666;
+  color: #918f8f;
   font-weight: 500;
 }
 .container .edit{
@@ -43,7 +48,7 @@
 }
 .star-widget label{
   font-size: 40px;
-  color: #444;
+  color: whitesmoke;
   padding: 10px;
   float: right;
   transition: all 0.2s ease;
@@ -97,6 +102,7 @@ form .textarea{
   width: 100%;
   overflow: hidden;
 }
+
 form .textarea textarea{
   height: 100%;
   width: 100%;
