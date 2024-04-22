@@ -103,7 +103,7 @@
     
     .btn:hover {
         transform: translateY(-5px);
-        background-color: black;
+        
         color: #a4f484;
     }
 
