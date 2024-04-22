@@ -115,11 +115,11 @@ center {
 } 
   
 .card .img { 
-    background: green; 
+    background: rgb(255, 255, 255); 
     width: 145px; 
     height: 145px; 
     border-radius: 50%; 
-  
+    border: 3px solid #a4f484;
 } 
   
 .card .img img { 
